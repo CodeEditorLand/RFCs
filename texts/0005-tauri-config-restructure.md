@@ -31,17 +31,20 @@ These inconsistencies will make it harder to add new fields to the config.
 - Move `tauri > bundle` to root object.
 
 <table>
-<thead>
-  <tr>
-    <th>Current Config</th>
-    <th>New Config</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-  <td>
-
-```jsonc
+	<thead>
+		<tr>
+			<th>
+				Current Config
+			</th>
+			<th>
+				New Config
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>
+				```jsonc
 {
   "build": {
     "beforeDevCommand": "pnpm dev",
@@ -99,11 +102,9 @@ These inconsistencies will make it harder to add new fields to the config.
   }
 }
 ```
-
-</td>
-<td>
-
-```jsonc
+			</td>
+			<td>
+				```jsonc
 {
   "productName": "tauri-app",
   "version": "0.1.0",
@@ -158,10 +159,9 @@ These inconsistencies will make it harder to add new fields to the config.
   }
 }
 ```
-
-</td>
-  </tr>
-</tbody>
+			</td>
+		</tr>
+	</tbody>
 </table>
 
 ## Community Considerations
